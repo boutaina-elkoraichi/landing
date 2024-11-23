@@ -1,0 +1,120 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9; /* Soft off-white background for better readability */
+    color: #212121; /* Dark text for contrast and readability */
+}
+
+/* Banner Styling */
+.banner {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 120px 20px;
+    height: 400px;
+    background-color: #2E7D32; /* Dark green fallback color */
+}
+
+.banner h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.banner p {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #2E7D32; /* Rich green for primary action */
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #66BB6A; /* Lighter green on hover */
+    transform: scale(1.05);
+}
+
+/* Typeform Embed Section */
+.typeform-embed {
+    background-color: #F1F8E9; /* Light green for background */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.typeform-container iframe {
+    border: none;
+}
+
+/* Contact Card Section */
+.contact-card {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #66BB6A; /* Lighter green border */
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 2rem;
+    color: #212121;
+}
+
+.card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.card a {
+    color: #2E7D32; /* Green link color */
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #263238; /* Dark charcoal for footer */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #66BB6A; /* Lighter green for links in footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Container for content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
